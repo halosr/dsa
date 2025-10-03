@@ -1,4 +1,4 @@
-export default function binarySearch<T>(array: T[], key: T): number | null {
+export function binarySearch<T>(array: T[], key: T): number | null {
     let low = 0;
     let high = array.length - 1;
     let mid;
