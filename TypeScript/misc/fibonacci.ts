@@ -10,3 +10,5 @@ export default function fibonacci(range: number){
         console.log(l)
     }
 }
+
+fibonacci(10)
