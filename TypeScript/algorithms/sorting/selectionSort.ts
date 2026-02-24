@@ -1,3 +1,8 @@
+/**
+ * 
+ * @param arr an array which needs to be sorted
+ * @returns a sorted array
+ */
 export function selectionSort<T>(arr: T[]): T[] {
     for (let i = 0; i < arr.length; i++) {
         for (let j = i + 1; j < arr.length; j++) {
