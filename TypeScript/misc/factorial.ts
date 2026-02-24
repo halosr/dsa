@@ -1,4 +1,4 @@
-function factorial(num: number): number {
+export function factorial(num: number): number {
     let fact = 1;
     while(num > 0) {
         fact *= num;
